@@ -86,6 +86,7 @@ export default function TestimonialCarousel() {
   const [touchStart, setTouchStart] = useState(null)
   const [touchEnd, setTouchEnd] = useState(null)
   const carouselRef = useRef(null)
+  const maxDots = testimonials.length - visibleCards + 1
 
   // Responsive card count
   useEffect(() => {
@@ -156,11 +157,9 @@ export default function TestimonialCarousel() {
     setCurrentIndex(index)
   }
 
-  const maxDots = testimonials.length - visibleCards + 1
-
   return (
     <div
-      className="w-full max-w-7xl mx-auto"
+      className="w-full max-w-7xl mx-auto px-4"
       onMouseEnter={() => setIsAutoPlaying(false)}
       onMouseLeave={() => setIsAutoPlaying(true)}
     >
@@ -189,7 +188,7 @@ export default function TestimonialCarousel() {
             >
               <div className="relative group">
                 {/* Card */}
-                <div className="bg-white p-6 ml-12 relative z-10 min-w-[320px]">
+                <div className="bg-white p-6 ml-16 relative z-10 max-w-sm mx-auto">
                   {/* Content */}
                   <div className="space-y-4">
                     <div>
@@ -206,8 +205,8 @@ export default function TestimonialCarousel() {
                 </div>
 
                 {/* Overlapping Image */}
-                <div className="absolute left-0 top-1/2 -translate-y-28 -translate-x-16 z-20 transition-transform duration-300">
-                  <div className="w-32 h-32  overflow-hidden shadow-lg border-4 border-white">
+                <div className="absolute left-0 top-1/2 -translate-y-20 -translate-x-10 z-20 transition-transform duration-600">
+                  <div className="w-32 h-24 rounded-full overflow-hidden shadow-lg border-4 border-white">
                     <img
                       src={testimonial.image || "/placeholder.svg"}
                       alt={testimonial.title}
@@ -220,6 +219,8 @@ export default function TestimonialCarousel() {
           ))}
         </div>
       </div>
+
+
     </div>
   )
 }
