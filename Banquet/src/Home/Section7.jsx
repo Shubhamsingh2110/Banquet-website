@@ -23,21 +23,18 @@ export function ReviewSection() {
           {/* Left Column */}
           <div className="space-y-6 animate-fade-in">
             <div className="space-y-4">
-              <h2 className="text-4xl md:text-5xl lg:text-6xl font-serif font-bold text-gray-800 leading-tight">
+              <h2 className="text-4xl md:text-5xl lg:text-6xl font-cormorant font-bold text-[#B38728] leading-tight">
                 Review Us on Google
               </h2>
 
-              {/* Decorative line */}
-              <div className="w-16 h-0.5 bg-gray-300"></div>
-
-              <p className="text-gray-600 text-lg leading-relaxed max-w-md">
+              <p className="text-gray-600 text-lg leading-relaxed max-w-md font-playfair">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
                 dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
                 ex ea commodo consequat.
               </p>
             </div>
 
-            <button className="group bg-[#B38728] hover:bg-[#9A7322] text-white font-serif px-8 py-4 rounded-sm transition-all duration-300 hover:scale-105 hover:shadow-lg">
+            <button className="group bg-[#B38728] hover:bg-[#9A7322] text-white font-playfair px-8 py-4 ">
               Review us on Google
             </button>
           </div>

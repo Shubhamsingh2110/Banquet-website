@@ -25,7 +25,7 @@ export default function RestaurantSection() {
     <section ref={sectionRef} className="w-full bg-white py-16 px-4">
       <div className="max-w-7xl mx-auto">
         {/* Main Heading */}
-        <h1 className="text-center text-6xl md:text-7xl lg:text-8xl font-medium text-[#B38B59] font-serif mb-16">
+        <h1 className="text-center text-6xl md:text-7xl lg:text-8xl font-medium text-[#B38B59] font-playfair mb-16">
           Restaurant
         </h1>
 
@@ -68,17 +68,17 @@ export default function RestaurantSection() {
               }`}
             >
               {/* Category Label */}
-              <div className="text-[#B38B59] text-sm font-semibold tracking-widest uppercase mb-3 font-sans">
+              <div className="text-[#B38B59] text-sm font-semibold tracking-widest uppercase mb-3 font-cormorant">
                 RESTAURANT
               </div>
 
               {/* Main Headline */}
-              <h2 className="text-2xl md:text-3xl font-bold text-black mb-4 font-serif leading-tight">
+              <h2 className="text-2xl md:text-3xl font-bold text-black mb-4 font-cormorant leading-tight">
                 Serve a great food on your wedding.
               </h2>
 
               {/* Description Text */}
-              <p className="text-[#555555] text-sm leading-relaxed font-sans">
+              <p className="text-[#555555] text-sm leading-relaxed font-playfair">
                 Wedding agencies, photography and personal wedding pages can be built with the help of this responsive
                 Wedding Venues Website Template. Refreshing and uplifting color scheme featuring…
               </p>

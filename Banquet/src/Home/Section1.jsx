@@ -73,18 +73,18 @@ export default function HeroSection() {
             </div>
           </div>
 
-          <h1 className="mb-4 font-playfair text-5xl font-bold text-[#B38B59] md:text-7xl">The Maison Plaza</h1>
+          <h1 className="mb-4 font-cormorant text-5xl font-bold text-[#B38B59] md:text-8xl">The Maison Plaza</h1>
 
-          <p className="font-montserrat text-lg text-gray-200 md:text-xl">
+          <p className="font-cormorant text-lg text-gray-200 md:text-3xl">
             Choose your best marriage destination with us
           </p>
         </div>
 
         <div className="w-full max-w-6xl slide-up">
-          <div className="rounded-2xl bg-white/95 p-6 shadow-2xl backdrop-blur-sm md:p-8">
+          <div className="rounded-xl bg-white/95 p-6 shadow-2xl backdrop-blur-sm md:p-8">
             <div className="flex flex-col gap-4 lg:flex-row lg:items-end lg:gap-6">
               <div className="flex-1 space-y-2">
-                <label className="block font-montserrat text-sm font-medium text-gray-700">
+                <label className="block font-cormorant text-lg font-medium text-gray-700">
                   SELECT YOUR DESTINATION
                 </label>
                 <div className="relative">
@@ -122,7 +122,7 @@ export default function HeroSection() {
               </div>
 
               <div className="flex-1 space-y-2">
-                <label className="block font-montserrat text-sm font-medium text-gray-700">NUMBER OF PEOPLE</label>
+                <label className="block font-cormorant text-lg font-medium text-gray-700">NUMBER OF PEOPLE</label>
                 <div className="relative">
                   <Users className="absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-[#B38B59]" />
                   <input
@@ -136,7 +136,7 @@ export default function HeroSection() {
               </div>
 
               <div className="flex-1 space-y-2">
-                <label className="block font-montserrat text-sm font-medium text-gray-700">CHECK IN</label>
+                <label className="block font-cormorant text-lg font-medium text-gray-700">CHECK IN</label>
                 <div className="relative">
                   <Calendar className="absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-[#B38B59]" />
                   <input
@@ -149,7 +149,7 @@ export default function HeroSection() {
               </div>
 
               <div className="flex-1 space-y-2">
-                <label className="block font-montserrat text-sm font-medium text-gray-700">CHECK OUT</label>
+                <label className="block font-cormorant text-lg font-medium text-gray-700">CHECK OUT</label>
                 <div className="relative">
                   <Calendar className="absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-[#B38B59]" />
                   <input
@@ -162,8 +162,8 @@ export default function HeroSection() {
               </div>
 
               <div className="space-y-2 lg:space-y-0">
-                <label className="block font-montserrat text-sm font-medium text-gray-700 lg:invisible">Action</label>
-                <button className="h-12 w-full rounded-md bg-[#B38B59] px-8 py-2 font-montserrat font-semibold text-white transition-all duration-300 hover:bg-[#9A7A4A] hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-[#B38B59] focus:ring-offset-2 lg:w-auto">
+                <label className="block font-cormorant text-sm font-medium text-gray-700 lg:invisible">Action</label>
+                <button className="h-12 w-full rounded-md bg-[#B38B59] px-8 py-2 font-cormorant font-semibold text-white transition-all duration-300 hover:bg-[#9A7A4A] hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-[#B38B59] focus:ring-offset-2 lg:w-auto">
                   CHECK AVAILABILITY
                 </button>
               </div>

@@ -7,7 +7,7 @@ export default function NavigationHeader() {
   const navItems = ["HOME", "ACCOMMODATIONS", "RESTAURANT", "WEDDING & EVENTS", "PACKAGES"]
 
   return (
-    <nav className="w-full bg-[#FFF3E9] px-4 py-6 border-b border-gray-200">
+    <nav className="w-full bg-white px-4 py-6 border-b border-gray-200">
       <div className="max-w-7xl mx-auto flex items-center justify-between">
         {/* Left Section - Social Media */}
         <div className="flex items-center gap-4">

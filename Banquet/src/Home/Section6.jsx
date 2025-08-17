@@ -25,7 +25,7 @@ export default function ContactSection() {
     <section className="py-16 px-4 max-w-7xl mx-auto">
       {/* Services Title */}
       <div className="text-center mb-16">
-        <h1 className="text-5xl md:text-6xl font-serif text-[#B38728] font-bold">Services</h1>
+        <h1 className="text-5xl md:text-6xl font-playfair text-[#B38728] font-semibold">Services</h1>
       </div>
 
       {/* Two Column Layout */}
@@ -43,7 +43,7 @@ export default function ContactSection() {
               {/* Name and City Row */}
               <div className="grid md:grid-cols-2 gap-6">
                 <div className="space-y-2">
-                  <label className="block text-white font-bold text-sm uppercase tracking-wider font-sans">Name</label>
+                  <label className="block text-white font-bold text-base uppercase tracking-wider font-cormorant">Name</label>
                   <input
                     type="text"
                     name="name"
@@ -54,7 +54,7 @@ export default function ContactSection() {
                   />
                 </div>
                 <div className="space-y-2">
-                  <label className="block text-white font-bold text-sm uppercase tracking-wider font-sans">City</label>
+                  <label className="block text-white font-bold text-sm uppercase tracking-wider font-cormorant">City</label>
                   <input
                     type="text"
                     name="city"
@@ -69,18 +69,18 @@ export default function ContactSection() {
               {/* Email and Contact Row */}
               <div className="grid md:grid-cols-2 gap-6">
                 <div className="space-y-2">
-                  <label className="block text-white font-bold text-sm uppercase tracking-wider font-sans">Email</label>
+                  <label className="block text-white font-bold text-sm uppercase tracking-wider font-cormorant">Email</label>
                   <input
                     type="email"
                     name="email"
                     value={formData.email}
                     onChange={handleInputChange}
-                    className="w-full bg-transparent border-0 border-b-2 border-white text-white placeholder-gray-300 focus:border-[#B38728] focus:outline-none transition-colors duration-300 pb-2 font-sans"
+                    className="w-full bg-transparent border-0 border-b-2 border-white text-white placeholder-gray-300 focus:border-[#B38728] focus:outline-none transition-colors duration-300 pb-2 font-cormorant"
                     required
                   />
                 </div>
                 <div className="space-y-2">
-                  <label className="block text-white font-bold text-sm uppercase tracking-wider font-sans">
+                  <label className="block text-white font-bold text-sm uppercase tracking-wider font-cormorant">
                     Contact
                   </label>
                   <input
@@ -88,7 +88,7 @@ export default function ContactSection() {
                     name="contact"
                     value={formData.contact}
                     onChange={handleInputChange}
-                    className="w-full bg-transparent border-0 border-b-2 border-white text-white placeholder-gray-300 focus:border-[#B38728] focus:outline-none transition-colors duration-300 pb-2 font-sans"
+                    className="w-full bg-transparent border-0 border-b-2 border-white text-white placeholder-gray-300 focus:border-[#B38728] focus:outline-none transition-colors duration-300 pb-2 font-cormorant"
                     required
                   />
                 </div>
@@ -96,7 +96,7 @@ export default function ContactSection() {
 
               {/* Message Row */}
               <div className="space-y-2">
-                <label className="block text-white font-bold text-sm uppercase tracking-wider font-sans">Message</label>
+                <label className="block text-white font-bold text-sm uppercase tracking-wider font-cormorant">Message</label>
                 <textarea
                   name="message"
                   value={formData.message}
@@ -111,7 +111,7 @@ export default function ContactSection() {
               <div className="flex justify-center pt-4">
                 <button
                   type="submit"
-                  className="bg-[#B38728] text-white px-12 py-3 font-sans font-semibold uppercase tracking-wider hover:bg-[#9a7322] hover:scale-105 hover:shadow-lg transition-all duration-300"
+                  className="bg-[#B38728] text-white px-12 py-3 font-playfair font-semibold uppercase tracking-wider hover:bg-[#9a7322] hover:scale-105 hover:shadow-lg transition-all duration-300"
                 >
                   Submit
                 </button>
@@ -129,24 +129,24 @@ export default function ContactSection() {
           <div className="relative z-10 p-8 md:p-12 bg-white">
             <div className="space-y-6">
               {/* Business Name */}
-              <h2 className="text-2xl md:text-3xl font-serif font-bold text-gray-800">The Maison Palace</h2>
+              <h2 className="text-2xl md:text-3xl font-cormorant font-semibold text-gray-800">The Maison Palace</h2>
 
               {/* Address */}
-              <div className="space-y-1 text-gray-600 font-sans">
+              <div className="space-y-1 text-gray-600 font-playfair">
                 <p>Choriner Straße 49</p>
                 <p>10435 Zirakpur, Punjab</p>
                 <p>E-Mail: info@themaisonpalace.com</p>
               </div>
 
               {/* Phone and Hours */}
-              <div className="space-y-2 text-gray-600 font-sans">
+              <div className="space-y-2 text-gray-600 font-playfair">
                 <p className="font-semibold">Call Us: 0172 - 0148233</p>
                 <p>We are open all days a week.</p>
               </div>
 
               {/* Social Media */}
               <div className="pt-4">
-                <p className="text-gray-800 font-sans font-semibold mb-4">Follow us on</p>
+                <p className="text-gray-800 font-playfair font-semibold mb-4">Follow us on</p>
                 <div className="flex space-x-4">
                   {/* Facebook */}
                   <a href="#" className="group">

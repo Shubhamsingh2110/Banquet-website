@@ -172,7 +172,7 @@ export default function TestimonialCarousel() {
         onTouchEnd={handleTouchEnd}
       >
         <div
-          className="flex transition-transform duration-500 ease-in-out"
+          className="flex transition-transform duration-500 ease-in-out "
           style={{
             transform: `translateX(-${currentIndex * (100 / visibleCards)}%)`,
             width: `${(testimonials.length / visibleCards) * 100}%`,
@@ -186,17 +186,16 @@ export default function TestimonialCarousel() {
               }`}
               style={{ animationDelay: `${index * 100}ms` }}
             >
-              <div className="relative group">
+              <div className="relative group h-72">
                 {/* Card */}
-                <div className="bg-white p-6 ml-16 relative z-10 max-w-sm mx-auto">
+                <div className="bg-white p-6 ml-20 relative z-10 max-w-sm mx-auto shadow-2xl h-52">
                   {/* Content */}
                   <div className="space-y-4">
                     <div>
-                      <h3 className="text-xl font-semibold text-gray-900 mb-2">{testimonial.title}</h3>
-                      <StarRating rating={testimonial.rating} animate={true} />
+                      <h3 className="text-xl font-cormorant font-semibold text-[#B38728] mb-2">{testimonial.title}</h3>
                     </div>
 
-                    <p className="text-gray-600 text-sm leading-relaxed">{testimonial.description}</p>
+                    <p className="text-gray-600 text-sm font-playfair leading-relaxed">{testimonial.description}</p>
 
                     <div className="flex justify-end">
                       <p className="text-sm text-gray-500 italic">- {testimonial.author}</p>
@@ -205,8 +204,8 @@ export default function TestimonialCarousel() {
                 </div>
 
                 {/* Overlapping Image */}
-                <div className="absolute left-0 top-1/2 -translate-y-20 -translate-x-10 z-20 transition-transform duration-600">
-                  <div className="w-32 h-24 rounded-full overflow-hidden shadow-lg border-4 border-white">
+                <div className="absolute left-0 top-1/2 -translate-y-32 -translate-x-4 z-20  transition-transform duration-600">
+                  <div className="w-28 h-20 overflow-hidden shadow-2xl ">
                     <img
                       src={testimonial.image || "/placeholder.svg"}
                       alt={testimonial.title}

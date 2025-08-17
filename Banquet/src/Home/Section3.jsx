@@ -64,25 +64,22 @@ export default function StatsSection() {
             <div key={index} className="text-center group cursor-default">
               {/* Number */}
               <div className="mb-4 transition-transform duration-300 group-hover:scale-105">
-                <span className="text-5xl sm:text-6xl lg:text-7xl font-bold text-[#333333] font-serif leading-none">
+                <span className="text-5xl sm:text-6xl lg:text-7xl font-bold font-didot text-[#333333] leading-none">
                   <AnimatedNumber target={stat.number} isVisible={isVisible} />
                 </span>
               </div>
 
               {/* Label */}
               <div className="mb-3">
-                <h3 className="text-lg sm:text-xl font-bold text-black font-sans leading-tight whitespace-pre-line">
+                <h3 className="text-lg sm:text-2xl font-normal text-black font-cormorant leading-tight whitespace-pre-line">
                   {stat.label}
                 </h3>
               </div>
 
               {/* Gold underline */}
               <div className="flex justify-center">
-                <div
-                  className={`h-0.5 bg-[#B38B59] transition-all duration-1000 delay-${index * 200} ${
-                    isVisible ? "w-16" : "w-0"
-                  }`}
-                />
+             
+
               </div>
             </div>
           ))}

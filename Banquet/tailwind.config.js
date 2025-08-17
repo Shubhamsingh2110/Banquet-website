@@ -5,7 +5,13 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        cormorant: ['"Cormorant Garamond"', 'serif'],
+        didot: ['"GFS Didot"', 'serif'],
+        playfair: ['"Playfair Display"', 'serif'],
+      },
+    },
   },
   plugins: [],
 }

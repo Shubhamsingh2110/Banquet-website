@@ -11,17 +11,13 @@ export default function DreamWeddingSection() {
           <div className="space-y-8">
             <div className="space-y-6">
               <h1
-                className="font-serif text-4xl lg:text-5xl xl:text-6xl font-medium leading-tight"
+                className="font-cormorant text-4xl lg:text-5xl xl:text-6xl font-semibold leading-tight"
                 style={{ color: "#B38B59" }}
               >
                 A wedding destination of your dreams
               </h1>
-
-              {/* Decorative line */}
-              <div className="w-16 h-px bg-gray-300"></div>
-
               <p
-                className="font-sans text-gray-600 text-base lg:text-lg leading-relaxed max-w-md"
+                className="font-cormorant text-gray-600 text-base lg:text-2xl leading-relaxed max-w-md"
                 style={{ color: "#555555" }}
               >
                 Wedding agencies, photography and personal wedding pages can be built with the help of this responsive
@@ -34,7 +30,7 @@ export default function DreamWeddingSection() {
             {/* CTA Button */}
             <div className="pt-4">
               <button
-                className="group relative font-sans font-bold text-black text-sm tracking-wider uppercase transition-all duration-300"
+                className="group relative font-cormorant font-bold text-black text-lg tracking-wider uppercase transition-all duration-300"
                 onMouseEnter={() => setIsHovered(true)}
                 onMouseLeave={() => setIsHovered(false)}
               >
