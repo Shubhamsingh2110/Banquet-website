@@ -47,7 +47,7 @@ export default function RestaurantSection() {
             >
               {/* Category Label */}
               <div className="text-[#B38B59] text-sm font-semibold tracking-widest uppercase mb-3 font-cormorant">
-                RESTAURANT
+                Restaurant
               </div>
 
               {/* Main Headline */}

@@ -25,42 +25,38 @@ export default function ContactSection() {
     <section className="py-16 px-4 max-w-7xl mx-auto">
       {/* Services Title */}
       <div className="text-center mb-16">
-        <h1 className="text-5xl md:text-6xl font-playfair text-[#B38728] font-semibold">Services</h1>
+        <h1 className="text-5xl md:text-6xl font-playfair text-[#B38728] font-semibold">Contact</h1>
       </div>
 
       {/* Two Column Layout */}
       <div className="grid lg:grid-cols-2 gap-8 lg:gap-12">
         {/* Left Column - Contact Form with Custom SVG Background */}
         <div className="relative">
-          <svg viewBox="0 0 400 500" className="w-full h-full absolute inset-0" preserveAspectRatio="none">
-            {/* Custom angled shape with gold border */}
-            <polygon points="30,0 400,0 400,470 0,500 0,30" fill="#999999" stroke="#B38728" strokeWidth="2" />
-          </svg>
-
+        
           {/* Form Content */}
-          <div className="relative z-10 p-8 md:p-12">
+          <div className="relative z-10 p-8 md:p-12 border-2 border-[#B38728] rounded-3xl">
             <form onSubmit={handleSubmit} className="space-y-8">
               {/* Name and City Row */}
               <div className="grid md:grid-cols-2 gap-6">
                 <div className="space-y-2">
-                  <label className="block text-white font-bold text-base uppercase tracking-wider font-cormorant">Name</label>
+                  <label className="block text-[#B38728] font-bold text-base uppercase tracking-wider font-cormorant">Name</label>
                   <input
                     type="text"
                     name="name"
                     value={formData.name}
                     onChange={handleInputChange}
-                    className="w-full bg-transparent border-0 border-b-2 border-white text-white placeholder-gray-300 focus:border-[#B38728] focus:outline-none transition-colors duration-300 pb-2 font-sans"
+                    className="w-full bg-transparent border-0 border-b-2  text-white placeholder-gray-300 border-[#B38728] focus:outline-none transition-colors duration-300 pb-2 font-sans"
                     required
                   />
                 </div>
                 <div className="space-y-2">
-                  <label className="block text-white font-bold text-sm uppercase tracking-wider font-cormorant">City</label>
+                  <label className="block text-[#B38728] font-bold text-sm uppercase tracking-wider font-cormorant">City</label>
                   <input
                     type="text"
                     name="city"
                     value={formData.city}
                     onChange={handleInputChange}
-                    className="w-full bg-transparent border-0 border-b-2 border-white text-white placeholder-gray-300 focus:border-[#B38728] focus:outline-none transition-colors duration-300 pb-2 font-sans"
+                    className="w-full bg-transparent border-0 border-b-2  text-white placeholder-gray-300 border-[#B38728] focus:outline-none transition-colors duration-300 pb-2 font-sans"
                     required
                   />
                 </div>
@@ -69,18 +65,18 @@ export default function ContactSection() {
               {/* Email and Contact Row */}
               <div className="grid md:grid-cols-2 gap-6">
                 <div className="space-y-2">
-                  <label className="block text-white font-bold text-sm uppercase tracking-wider font-cormorant">Email</label>
+                  <label className="block text-[#B38728] font-bold text-sm uppercase tracking-wider font-cormorant">Email</label>
                   <input
                     type="email"
                     name="email"
                     value={formData.email}
                     onChange={handleInputChange}
-                    className="w-full bg-transparent border-0 border-b-2 border-white text-white placeholder-gray-300 focus:border-[#B38728] focus:outline-none transition-colors duration-300 pb-2 font-cormorant"
+                    className="w-full bg-transparent border-0 border-b-2  text-white placeholder-gray-300 border-[#B38728] focus:outline-none transition-colors duration-300 pb-2 font-cormorant"
                     required
                   />
                 </div>
                 <div className="space-y-2">
-                  <label className="block text-white font-bold text-sm uppercase tracking-wider font-cormorant">
+                  <label className="block text-[#B38728] font-bold text-sm uppercase tracking-wider font-cormorant">
                     Contact
                   </label>
                   <input
@@ -88,7 +84,7 @@ export default function ContactSection() {
                     name="contact"
                     value={formData.contact}
                     onChange={handleInputChange}
-                    className="w-full bg-transparent border-0 border-b-2 border-white text-white placeholder-gray-300 focus:border-[#B38728] focus:outline-none transition-colors duration-300 pb-2 font-cormorant"
+                    className="w-full bg-transparent border-0 border-b-2  text-white placeholder-gray-300 border-[#B38728] focus:outline-none transition-colors duration-300 pb-2 font-cormorant"
                     required
                   />
                 </div>
@@ -96,13 +92,13 @@ export default function ContactSection() {
 
               {/* Message Row */}
               <div className="space-y-2">
-                <label className="block text-white font-bold text-sm uppercase tracking-wider font-cormorant">Message</label>
+                <label className="block text-[#B38728] font-bold text-sm uppercase tracking-wider font-cormorant">Message</label>
                 <textarea
                   name="message"
                   value={formData.message}
                   onChange={handleInputChange}
                   rows={4}
-                  className="w-full bg-transparent border-0 border-b-2 border-white text-white placeholder-gray-300 focus:border-[#B38728] focus:outline-none transition-colors duration-300 pb-2 resize-none font-sans"
+                  className="w-full bg-transparent  border-0 border-b-2  text-white placeholder-gray-300 border-[#B38728] focus:outline-none transition-colors duration-300 pb-2 resize-none font-sans"
                   required
                 />
               </div>
@@ -121,37 +117,33 @@ export default function ContactSection() {
         </div>
 
         {/* Right Column - Business Information */}
-        <div className="relative">
-          {/* Gold border outline */}
-          <div className="absolute inset-0 border-2 border-[#B38728] rotate-[1deg]"></div>
-          
-
-          <div className="relative z-10 p-8 md:p-12 bg-white">
+        <div className="relative border-2 border-[#B38728] bg-[#B38728] rounded-3xl">
+          <div className="relative z-10 p-8 md:p-12 bg-[#B38728] rounded-3xl">
             <div className="space-y-6">
               {/* Business Name */}
-              <h2 className="text-2xl md:text-3xl font-cormorant font-semibold text-gray-800">The Maison Palace</h2>
+              <h2 className="text-2xl md:text-4xl font-cormorant font-semibold text-white">The Maison Palace</h2>
 
               {/* Address */}
-              <div className="space-y-1 text-gray-600 font-playfair">
+              <div className="space-y-1 text-white font-playfair">
                 <p>Choriner Straße 49</p>
                 <p>10435 Zirakpur, Punjab</p>
                 <p>E-Mail: info@themaisonpalace.com</p>
               </div>
 
               {/* Phone and Hours */}
-              <div className="space-y-2 text-gray-600 font-playfair">
+              <div className="space-y-2 text-white font-playfair">
                 <p className="font-semibold">Call Us: 9911205000/8884008000</p>
                 <p>We are open all days a week.</p>
               </div>
 
               {/* Social Media */}
               <div className="pt-4">
-                <p className="text-gray-800 font-playfair font-semibold mb-4">Follow us on</p>
+                <p className="text-white font-playfair font-semibold mb-4">Follow us on</p>
                 <div className="flex space-x-4">
                   {/* Facebook */}
                   <a href="#" className="group">
                     <svg
-                      className="w-6 h-6 text-gray-600 group-hover:text-[#B38728] group-hover:scale-110 transition-all duration-300"
+                      className="w-6 h-6 text-white  group-hover:scale-110 transition-all duration-300"
                       fill="currentColor"
                       viewBox="0 0 24 24"
                     >
@@ -159,21 +151,11 @@ export default function ContactSection() {
                     </svg>
                   </a>
 
-                  {/* Instagram */}
-                  <a href="#" className="group">
-                    <svg
-                      className="w-6 h-6 text-gray-600 group-hover:text-[#B38728] group-hover:scale-110 transition-all duration-300"
-                      fill="currentColor"
-                      viewBox="0 0 24 24"
-                    >
-                      <path d="M12.017 0C5.396 0 .029 5.367.029 11.987c0 6.62 5.367 11.987 11.988 11.987 6.62 0 11.987-5.367 11.987-11.987C24.014 5.367 18.637.001 12.017.001zM8.449 16.988c-1.297 0-2.448-.49-3.323-1.297C4.198 14.895 3.708 13.744 3.708 12.447s.49-2.448 1.297-3.323C5.902 8.198 7.053 7.708 8.35 7.708s2.448.49 3.323 1.297c.897.875 1.387 2.026 1.387 3.323s-.49 2.448-1.297 3.323c-.875.897-2.026 1.387-3.323 1.387zm7.718 0c-1.297 0-2.448-.49-3.323-1.297-.897-.875-1.387-2.026-1.387-3.323s.49-2.448 1.297-3.323c.875-.897 2.026-1.387 3.323-1.387s2.448.49 3.323 1.297c.897.875 1.387 2.026 1.387 3.323s-.49 2.448-1.297 3.323c-.875.897-2.026 1.387-3.323 1.387z" />
-                    </svg>
-                  </a>
 
                   {/* Twitter */}
                   <a href="#" className="group">
                     <svg
-                      className="w-6 h-6 text-gray-600 group-hover:text-[#B38728] group-hover:scale-110 transition-all duration-300"
+                      className="w-6 h-6 text-white  group-hover:scale-110 transition-all duration-300"
                       fill="currentColor"
                       viewBox="0 0 24 24"
                     >
@@ -184,7 +166,7 @@ export default function ContactSection() {
                   {/* YouTube */}
                   <a href="#" className="group">
                     <svg
-                      className="w-6 h-6 text-gray-600 group-hover:text-[#B38728] group-hover:scale-110 transition-all duration-300"
+                      className="w-6 h-6 text-white  group-hover:scale-110 transition-all duration-300"
                       fill="currentColor"
                       viewBox="0 0 24 24"
                     >

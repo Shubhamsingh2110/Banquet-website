@@ -64,7 +64,7 @@ export default function HeroSection() {
             </div>
           </div>
 
-          <h1 className="mb-4 font-cormorant text-6xl font-black text-white md:text-9xl">The Maison Plaza</h1>
+          <h1 className="mb-4 font-cormorant text-6xl font-black text-white md:text-8xl">THE ROYAL SAPPHIRE</h1>
 
           <p className="font-cormorant text-lg text-gray-200 md:text-3xl">
             Choose your best marriage destination with us
