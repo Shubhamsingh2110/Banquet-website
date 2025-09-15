@@ -111,7 +111,7 @@ export default function ContactSection() {
               <div className="flex justify-center pt-4">
                 <button
                   type="submit"
-                  className="bg-[#B38728] text-white px-12 py-3 font-playfair font-semibold uppercase tracking-wider hover:bg-[#9a7322] hover:scale-105 hover:shadow-lg transition-all duration-300"
+                  className="bg-[#B38728] text-white px-12 py-3 font-playfair font-semibold uppercase tracking-wider hover:bg-[#9a7322] rounded-3xl hover:shadow-lg transition-all duration-300"
                 >
                   Submit
                 </button>

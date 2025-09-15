@@ -31,39 +31,17 @@ export default function RestaurantSection() {
 
         {/* Image Container with Decorative Elements */}
         <div className="relative group">
-          {/* Decorative SVG Corner Elements */}
-          <div className="absolute -top-[70px] right-[1150px] z-10">
-            <svg width="200" height="200" viewBox="0 0 120 120" className="text-[#B38B59]">
-              <path
-                d="M20 20 L100 20 L100 40 L40 40 L40 100 L20 100 Z"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth="2"
-              />
-            </svg>
-          </div>
-
-          <div className="absolute -bottom-[70px] left-[1150px] z-10">
-            <svg width="200" height="200" viewBox="0 0 120 120" className="text-[#B38B59]">
-              <path
-                d="M100 100 L20 100 L20 80 L80 80 L80 20 L100 20 Z"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth="2"
-              />
-            </svg>
-          </div>
 
           {/* Main Image Container */}
           <div
-            className="relative h-[500px] md:h-[600px] lg:h-[600px] bg-cover bg-center bg-no-repeat overflow-hidden "
+            className="relative h-[500px] md:h-[600px] lg:h-[600px] bg-cover bg-center bg-no-repeat overflow-hidden rounded-3xl "
             style={{
               backgroundImage: `url('https://i.pinimg.com/1200x/b4/64/3f/b4643f3b9340ff323c9fc195ff681227.jpg')`,
             }}
           >
             {/* Content Card Overlay */}
             <div
-              className={`absolute bottom-8 left-8 bg-white p-6 max-w-sm shadow-lg transition-all duration-700 ease-out hover:shadow-xl ${
+              className={`absolute bottom-8 left-8 bg-white p-6 rounded-3xl max-w-sm shadow-lg transition-all duration-700 ease-out hover:shadow-xl ${
                 isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
               }`}
             >

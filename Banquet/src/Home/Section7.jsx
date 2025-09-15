@@ -17,7 +17,7 @@ export function ReviewSection() {
   }, [])
 
   return (
-    <section className="py-16 px-4 md:px-8 lg:px-16 bg-white">
+    <section className="py-8 px-4 md:px-8 lg:px-16 bg-white min-h-fit">
       <div className="max-w-7xl mx-auto">
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
           {/* Left Column */}
@@ -34,7 +34,7 @@ export function ReviewSection() {
               </p>
             </div>
 
-            <button className="group bg-[#B38728] hover:bg-[#9A7322] text-white font-playfair px-8 py-4 ">
+            <button className="group rounded-full bg-[#B38728] hover:bg-[#9A7322] text-white font-playfair px-8 py-4 ">
               Review us on Google
             </button>
           </div>
@@ -42,7 +42,7 @@ export function ReviewSection() {
           {/* Right Column */}
           <div className="relative animate-fade-in-delay">
             {/* Google Street View Iframe */}
-            <div className="relative aspect-[4/3] rounded-sm overflow-hidden shadow-lg">
+            <div className="relative aspect-[4/3] overflow-hidden shadow-lg rounded-3xl">
               <iframe
                 src="https://www.google.com/maps/place//@28.3912853,76.9663363,19z/data=!4m6!1m5!3m4!2zMjjCsDIzJzI4LjAiTiA3NsKwNTgnMDEuMSJF!8m2!3d28.391119!4d76.96698?hl=en&entry=ttu&g_ep=EgoyMDI1MDkwMy4wIKXMDSoASAFQAw%3D%3D"
                 width="100%"

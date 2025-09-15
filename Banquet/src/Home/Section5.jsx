@@ -22,12 +22,11 @@ export default function WeddingServicesPage() {
             </div>
 
             <div className="relative">
-              <div className="absolute inset-0 bg-gradient-to-br from-amber-900 to-orange-200 rounded-lg transform rotate-3"></div>
-              <div className="relative bg-white rounded-lg shadow-2xl">
+              <div className="relative bg-white rounded-3xl shadow-2xl">
                 <img
                   src="https://i.pinimg.com/1200x/67/41/ce/6741ce164960e005d6845df253c803e9.jpg"
                   alt="Elegant wedding table setting with wine bottles and glasses"
-                  className="w-full h-80 object-cover rounded"
+                  className="w-full h-80 object-cover rounded-3xl"
                 />
               </div>
             </div>
@@ -43,7 +42,7 @@ export default function WeddingServicesPage() {
                 Wedding agencies, photography and personal wedding pages can be built with the help of this responsive
                 Wedding Venues Website Template. Refreshing and uplifting color scheme featuring Tiffany blue combined.
               </p>
-              <button className="inline-flex font-cormorant items-center justify-center  bg-[#B38B59] text-white px-8 py-3 text-lg font-normal tracking-wide transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-amber-700 disabled:pointer-events-none ">
+              <button className="inline-flex font-cormorant items-center justify-center  bg-[#B38B59] text-white px-8 py-3 text-lg font-normal tracking-wide transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-amber-700 disabled:pointer-events-none rounded-full ">
                 PLAN WITH US
               </button>
             </div>
@@ -51,30 +50,28 @@ export default function WeddingServicesPage() {
             <div className="lg:order-1 grid grid-cols-2 gap-4">
               <div className="space-y-4">
                 <div className="relative">
-                  <div className="absolute inset-0 bg-gradient-to-br from-amber-900 to-orange-200 rounded-lg transform -rotate-2"></div>
-                  <div className="relative rounded-lg shadow-2xl">
+                  <div className="relative rounded-3xl shadow-2xl">
                     <img
                       src="https://i.pinimg.com/736x/ba/44/64/ba4464e07a8e48445351b254f94d75db.jpg"
                       alt="Gourmet plated dish"
-                      className="w-full h-48 object-cover rounded"
+                      className="w-full h-48 object-cover rounded-3xl"
                     />
                   </div>
                 </div>
-                <div className="w-32 h-32 bg-gradient-to-br from-amber-200 to-orange-200 rounded-lg">
-                  <div className="w-32 h-52 bg-gradient-to-br from-amber-900 to-orange-200 rounded-lg translate-x-36">
+                <div className="w-32 h-32 bg-gradient-to-br from-amber-200 to-orange-200 rounded-3xl">
+                  <div className="w-32 h-52 bg-gradient-to-br from-amber-900 to-orange-200 rounded-3xl translate-x-36">
                 </div>
                 </div>
               </div>
 
               <div className="space-y-4 pt-8">
-                <div className="w-full h-24 bg-gradient-to-br from-orange-300 to-amber-300 rounded-lg"></div>
+                <div className="w-full h-24 bg-gradient-to-br from-orange-300 to-amber-300 rounded-3xl"></div>
                 <div className="relative">
-                  <div className="absolute inset-0 bg-gradient-to-br from-amber-900 to-orange-200 rounded-lg transform rotate-2"></div>
-                  <div className="relative  rounded-lg shadow-2xl">
+                  <div className="relative  rounded-3xl shadow-2xl">
                     <img
                       src="https://i.pinimg.com/736x/bb/b8/14/bbb814fad005988802d5c73ee7634a89.jpg"
                       alt="Elegant plated salad"
-                      className="w-full h-40 object-cover rounded"
+                      className="w-full h-40 object-cover rounded-3xl"
                     />
                   </div>
                 </div>

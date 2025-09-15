@@ -72,16 +72,16 @@ export default function HeroSection() {
         </div>
 
         <div className="w-full max-w-6xl slide-up">
-          <div className="rounded-xl bg-white/95 p-6 shadow-2xl backdrop-blur-sm md:p-8">
+          <div className="rounded-3xl bg-white/95 p-6 shadow-2xl backdrop-blur-sm md:p-8">
             <div className="flex flex-col gap-4 lg:flex-row lg:items-end lg:gap-6">
               <div className="flex-1 space-y-2">
                 <label className="block font-cormorant text-lg font-medium text-gray-700">
-                  SELECT YOUR DESTINATION
+                 DESTINATION
                 </label>
                 <div className="relative">
                   <button
                     onClick={() => setIsDropdownOpen(!isDropdownOpen)}
-                    className="flex h-12 w-full items-center justify-between rounded-md border border-gray-300 bg-white px-3 py-2 text-sm font-montserrat hover:border-[#B38B59] focus:border-[#B38B59] focus:outline-none focus:ring-2 focus:ring-[#B38B59] focus:ring-offset-2"
+                    className="flex h-12 w-full items-center justify-between rounded-full border border-[#B38B59] bg-white px-3 py-2 text-sm font-montserrat hover:border-[#B38B59] focus:border-[#B38B59] focus:outline-none focus:ring-2 focus:ring-[#B38B59] focus:ring-offset-2"
                   >
                     <div className="flex items-center gap-2">
                       <MapPin className="h-4 w-4 text-[#B38B59]" />
@@ -94,7 +94,7 @@ export default function HeroSection() {
                     />
                   </button>
                   {isDropdownOpen && (
-                    <div className="absolute top-full left-0 z-50 mt-1 w-full rounded-md border border-gray-200 bg-white shadow-lg">
+                    <div className="absolute top-full left-0 z-50 mt-1 w-full rounded-3xl border border-gray-200 bg-white shadow-lg">
                       {destinations.map((dest) => (
                         <button
                           key={dest}
@@ -102,7 +102,7 @@ export default function HeroSection() {
                             setDestination(dest)
                             setIsDropdownOpen(false)
                           }}
-                          className="block w-full px-3 py-2 text-left text-sm font-montserrat hover:bg-gray-50 focus:bg-gray-50 focus:outline-none"
+                          className="block w-full px-3 py-2 text-left text-sm font-montserrat hover:bg-gray-50 focus:bg-gray-50 focus:outline-none rounded-3xl"
                         >
                           {dest}
                         </button>
@@ -120,7 +120,7 @@ export default function HeroSection() {
                     type="text"
                     value={guestCount}
                     onChange={handleGuestCountChange}
-                    className="h-12 w-full rounded-md border border-gray-300 bg-white pl-10 pr-3 py-2 text-sm font-montserrat font-medium placeholder-gray-500 hover:border-[#B38B59] focus:border-[#B38B59] focus:outline-none focus:ring-2 focus:ring-[#B38B59] focus:ring-offset-2"
+                    className="h-12 w-full rounded-3xl border bg-white pl-10 pr-3 py-2 text-sm font-montserrat font-medium placeholder-gray-500 border-[#B38B59] focus:border-[#B38B59] focus:outline-none focus:ring-2 focus:ring-[#B38B59] focus:ring-offset-2"
                     placeholder="0000"
                   />
                 </div>
@@ -134,7 +134,7 @@ export default function HeroSection() {
                     type="date"
                     value={checkInDate}
                     onChange={(e) => setCheckInDate(e.target.value)}
-                    className="h-12 w-full rounded-md border border-gray-300 bg-white pl-10 pr-3 py-2 text-sm font-montserrat hover:border-[#B38B59] focus:border-[#B38B59] focus:outline-none focus:ring-2 focus:ring-[#B38B59] focus:ring-offset-2"
+                    className="h-12 w-full rounded-3xl border  bg-white pl-10 pr-3 py-2 text-sm font-montserrat border-[#B38B59] focus:border-[#B38B59] focus:outline-none focus:ring-2 focus:ring-[#B38B59] focus:ring-offset-2"
                   />
                 </div>
               </div>
@@ -147,14 +147,14 @@ export default function HeroSection() {
                     type="date"
                     value={checkOutDate}
                     onChange={(e) => setCheckOutDate(e.target.value)}
-                    className="h-12 w-full rounded-md border border-gray-300 bg-white pl-10 pr-3 py-2 text-sm font-montserrat hover:border-[#B38B59] focus:border-[#B38B59] focus:outline-none focus:ring-2 focus:ring-[#B38B59] focus:ring-offset-2"
+                    className="h-12 w-full rounded-3xl border  bg-white pl-10 pr-3 py-2 text-sm font-montserrat border-[#B38B59] focus:border-[#B38B59] focus:outline-none focus:ring-2 focus:ring-[#B38B59] focus:ring-offset-2"
                   />
                 </div>
               </div>
 
               <div className="space-y-2 lg:space-y-0">
                 <label className="block font-cormorant text-sm font-medium text-gray-700 lg:invisible">Action</label>
-                <button className="h-12 w-full rounded-md bg-[#B38B59] px-8 py-2 font-cormorant font-semibold text-white transition-all duration-300 hover:bg-[#9A7A4A] hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-[#B38B59] focus:ring-offset-2 lg:w-auto">
+                <button className="h-12 w-full rounded-full bg-[#B38B59] px-8 py-2 font-cormorant font-semibold text-white transition-all duration-300 hover:bg-[#9A7A4A] hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-[#B38B59] focus:ring-offset-2 lg:w-auto">
                   CHECK AVAILABILITY
                 </button>
               </div>
