@@ -36,7 +36,7 @@ export default function RestaurantSection() {
           <div
             className="relative h-[500px] md:h-[600px] lg:h-[600px] bg-cover bg-center bg-no-repeat overflow-hidden rounded-3xl "
             style={{
-              backgroundImage: `url('https://i.pinimg.com/1200x/b4/64/3f/b4643f3b9340ff323c9fc195ff681227.jpg')`,
+              backgroundImage: `url('https://i.postimg.cc/Hkv5VWYg/Whats-App-Image-2025-09-03-at-11-41-12-PM-1.jpg')`,
             }}
           >
             {/* Content Card Overlay */}

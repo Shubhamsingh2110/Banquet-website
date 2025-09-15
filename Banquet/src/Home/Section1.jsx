@@ -60,11 +60,11 @@ export default function HeroSection() {
         <div className="mb-16 text-center fade-in">
           <div className="mb-8 flex justify-center">
             <div className="relative h-24 w-24">
-              <img src="https://i.postimg.cc/C1ySmFFT/IMG-2980.png" alt="" className="rounded-full" />
+              <img src="https://i.postimg.cc/C1ySmFFT/IMG-2980.png" alt="" className="rounded-full border-4 border-[#B38B59]" />
             </div>
           </div>
 
-          <h1 className="mb-4 font-cormorant text-5xl font-bold text-[#B38B59] md:text-8xl">The Maison Plaza</h1>
+          <h1 className="mb-4 font-cormorant text-6xl font-black text-white md:text-9xl">The Maison Plaza</h1>
 
           <p className="font-cormorant text-lg text-gray-200 md:text-3xl">
             Choose your best marriage destination with us
