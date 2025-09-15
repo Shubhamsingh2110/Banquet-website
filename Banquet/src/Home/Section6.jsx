@@ -140,7 +140,7 @@ export default function ContactSection() {
 
               {/* Phone and Hours */}
               <div className="space-y-2 text-gray-600 font-playfair">
-                <p className="font-semibold">Call Us: 0172 - 0148233</p>
+                <p className="font-semibold">Call Us: 9911205000/8884008000</p>
                 <p>We are open all days a week.</p>
               </div>
 

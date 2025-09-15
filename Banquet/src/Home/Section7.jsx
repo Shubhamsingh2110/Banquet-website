@@ -44,7 +44,7 @@ export function ReviewSection() {
             {/* Google Street View Iframe */}
             <div className="relative aspect-[4/3] rounded-sm overflow-hidden shadow-lg">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d120137.79383117853!2d72.69438939935091!3d19.784616727197243!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be71f3720a28e51%3A0x62c0e54f33ec2520!2sAtithi%20Banquets!5e0!3m2!1sen!2sin!4v1755280885009!5m2!1sen!2sin"
+                src="https://www.google.com/maps/place//@28.3912853,76.9663363,19z/data=!4m6!1m5!3m4!2zMjjCsDIzJzI4LjAiTiA3NsKwNTgnMDEuMSJF!8m2!3d28.391119!4d76.96698?hl=en&entry=ttu&g_ep=EgoyMDI1MDkwMy4wIKXMDSoASAFQAw%3D%3D"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}

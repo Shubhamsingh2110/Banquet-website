@@ -1,7 +1,10 @@
 import { useState, useEffect } from "react"
 import { Calendar, Users, MapPin, ChevronDown } from "lucide-react"
 
-const backgroundImages = ["https://i.pinimg.com/1200x/85/e6/3e/85e63e26a2dbc9e94dab5a7055bc4448.jpg", "https://i.pinimg.com/1200x/95/c8/ad/95c8ad932c7d51f0b6d6c0cb49fd3292.jpg", "https://i.pinimg.com/1200x/d5/01/1f/d5011f701613c3649cd38fa8ac0f94e8.jpg"]
+const backgroundImages = ["https://i.postimg.cc/9QN8MnS9/image1.jpg",
+                          "https://i.postimg.cc/8kBZW59N/image2.jpg",
+                          "https://i.postimg.cc/Gm9KZj2m/image3.jpg",
+                          "https://i.postimg.cc/x80ygvhY/image4.jpg"]
 
 const destinations = ["Grand Plaza, Zirakpur", "Maison Palace, Mohali", "Orient Destination, Panchkula"]
 
@@ -57,19 +60,7 @@ export default function HeroSection() {
         <div className="mb-16 text-center fade-in">
           <div className="mb-8 flex justify-center">
             <div className="relative h-24 w-24">
-              <svg viewBox="0 0 100 100" className="h-full w-full" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path
-                  d="M50 5 L85 35 L85 65 L50 95 L15 65 L15 35 Z"
-                  stroke="#B38B59"
-                  strokeWidth="2"
-                  fill="rgba(255,255,255,0.9)"
-                />
-                <path d="M50 10 L80 35 L80 65 L50 90 L20 65 L20 35 Z" stroke="#B38B59" strokeWidth="1" fill="none" />
-                <circle cx="50" cy="50" r="25" stroke="#B38B59" strokeWidth="1.5" fill="rgba(255,255,255,0.95)" />
-                <text x="50" y="58" textAnchor="middle" className="fill-[#B38B59] font-playfair text-2xl font-bold">
-                  M
-                </text>
-              </svg>
+              <img src="https://i.postimg.cc/C1ySmFFT/IMG-2980.png" alt="" className="rounded-full" />
             </div>
           </div>
 
