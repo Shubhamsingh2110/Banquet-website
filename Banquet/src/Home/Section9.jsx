@@ -4,49 +4,49 @@ import { X } from "lucide-react"
 const galleryImages = [
   {
     id: 1,
-    src: "https://i.pinimg.com/1200x/8e/50/0d/8e500dc7b5de5ed678269ba1a5b7dbbf.jpg",
+    src: "https://i.postimg.cc/x80ygvhY/image4.jpg",
     alt: "Elegant plated salad with microgreens",
     title: "Gourmet Salad",
   },
   {
     id: 2,
-    src: "https://i.pinimg.com/736x/5a/9c/35/5a9c35d420164e2a7e97d1a8d849f0c0.jpg",
+    src: "https://i.postimg.cc/Gm9KZj2m/image3.jpg",
     alt: "Pink and white flower bouquet",
     title: "Floral Arrangement",
   },
   {
     id: 3,
-    src: "https://i.pinimg.com/736x/95/42/9d/95429d5a14c3605592d87b6adb5545ba.jpg",
+    src: "https://i.postimg.cc/8kBZW59N/image2.jpg",
     alt: "Coastal Mediterranean town",
     title: "Coastal View",
   },
   {
     id: 4,
-    src: "https://i.pinimg.com/736x/eb/f6/55/ebf6551762a3214b9302bdd0ba21d2b6.jpg",
+    src: "https://i.postimg.cc/9QN8MnS9/image1.jpg",
     alt: "Elegant table setting",
     title: "Table Setting",
   },
   {
     id: 5,
-    src: "https://i.pinimg.com/736x/b7/2b/5c/b72b5cf82a550c0368942c2d89dee11d.jpg",
+    src: "https://i.postimg.cc/x80ygvhY/image4.jpg",
     alt: "Modern bar interior",
     title: "Bar Interior",
   },
   {
     id: 6,
-    src: "https://i.pinimg.com/1200x/93/e2/ac/93e2ac6354e6771a033ac72fbb22cac7.jpg",
+    src: "https://i.postimg.cc/Gm9KZj2m/image3.jpg",
     alt: "Artisanal coffee setup",
     title: "Coffee Art",
   },
   {
     id: 7,
-    src: "https://i.pinimg.com/1200x/1f/50/d8/1f50d83d7fb9875be2dc8e9cba1c89d0.jpg",
+    src: "https://i.postimg.cc/8kBZW59N/image2.jpg",
     alt: "Minimalist dessert plating",
     title: "Dessert Art",
   },
   {
     id: 8,
-    src: "https://i.pinimg.com/736x/19/0e/61/190e61f4912934f1d25dc8108125bb48.jpg",
+    src: "https://i.postimg.cc/9QN8MnS9/image1.jpg",
     alt: "Rustic bread and cheese board",
     title: "Charcuterie",
   },
@@ -99,7 +99,7 @@ export default function Gallery() {
       <div className="container mx-auto px-4 py-16">
         {/* Gallery Header */}
         <div className="text-center mb-12">
-          <h1 className="text-6xl font-serif text-stone-700 tracking-wide">Gallery</h1>
+          <h1 className="text-6xl font-serif text-[#B38728] tracking-wide">Gallery</h1>
         </div>
 
         {/* Gallery Container */}
