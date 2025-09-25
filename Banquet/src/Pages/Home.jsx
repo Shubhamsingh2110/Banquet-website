@@ -8,6 +8,8 @@ import Section6 from '../Home/Section6.jsx'
 import Section7 from '../Home/Section7.jsx'
 import Section8 from '../Home/Section8.jsx'
 import Section9 from '../Home/Section9.jsx'
+import Food from '../Home/Food.jsx'
+
 
 const Home = () => {
   return (
@@ -16,6 +18,7 @@ const Home = () => {
 <Section2/>
 <Section3/>
 <Section4/>
+<Food/>
 <Section5/>
 <Section7/>
 <Section8/>
