@@ -4,6 +4,7 @@ import Section2 from '../Home/Section2.jsx'
 import Section3 from '../Home/Section3.jsx'
 import Section4 from '../Home/Section4.jsx'
 import Section5 from '../Home/Section5.jsx'
+import Section15 from '../Home/Section15.jsx'
 import Section6 from '../Home/Section6.jsx'
 import Section7 from '../Home/Section7.jsx'
 import Section8 from '../Home/Section8.jsx'
@@ -20,6 +21,7 @@ const Home = () => {
 <Section4/>
 <Food/>
 <Section5/>
+
 <Section7/>
 <Section8/>
 <Section9/>

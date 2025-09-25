@@ -60,7 +60,7 @@ export default function DreamWeddingSection() {
               }}
             >
               <img
-                src="https://i.pinimg.com/1200x/6d/19/ad/6d19ad50074f3eaf2887e16c0f53f86a.jpg"
+                src="https://i.pinimg.com/736x/30/65/2c/30652cb04d82ac83a0c8d66fd4376163.jpg"
                 alt="Wedding bouquet with white and pink flowers "
                 className="w-full h-full object-cover  "
                 style={{ transform: "rotate(-45deg)" }}
