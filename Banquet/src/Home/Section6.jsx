@@ -117,8 +117,8 @@ export default function ContactSection() {
         </div>
 
         {/* Right Column - Business Information */}
-        <div className="relative border-2 border-[#B38728] bg-[#B38728] rounded-3xl">
-          <div className="relative z-10 p-8 md:p-12 bg-[#B38728] rounded-3xl">
+        <div className="relative border-8 border-[#B38728] bg-[#674d15] rounded-3xl">
+          <div className="relative z-10 p-8 md:p-12 bg-[#674d15] rounded-3xl">
             <div className="space-y-6">
               {/* Business Name */}
               <h2 className="text-2xl md:text-4xl font-cormorant font-semibold text-white">The Maison Palace</h2>

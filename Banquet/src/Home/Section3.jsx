@@ -64,7 +64,7 @@ export default function StatsSection() {
             <div key={index} className="text-center group cursor-default">
               {/* Number */}
               <div className="mb-4 transition-transform duration-300 group-hover:scale-105">
-                <span className="text-5xl sm:text-6xl lg:text-7xl font-bold font-didot text-[#333333] leading-none">
+                <span className="text-5xl sm:text-6xl lg:text-7xl font-bold font-inter text-black leading-none">
                   <AnimatedNumber target={stat.number} isVisible={isVisible} />
                 </span>
               </div>

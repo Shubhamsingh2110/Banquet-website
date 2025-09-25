@@ -50,41 +50,20 @@ export default function DreamWeddingSection() {
           <div className="relative flex justify-center items-center">
             {/* Background SVG Diamonds */}
             <div className="absolute inset-0 flex justify-center items-center animate-fade-in">
-              {/* Larger diamond outline */}
-              <svg
-                width="900"
-                height="900"
-                viewBox="0 0 400 400"
-                className="absolute opacity-30"
-                style={{ transform: "rotate(45deg)" }}
-              >
-                <rect x="50" y="50" width="300" height="300" fill="none" stroke="#B38B59" strokeWidth="1" />
-              </svg>
-
-              {/* Smaller diamond outline */}
-              <svg
-                width="800"
-                height="800"
-                viewBox="0 0 350 350"
-                className="absolute opacity-20"
-                style={{ transform: "rotate(45deg)" }}
-              >
-                <rect x="50" y="50" width="250" height="250" fill="none" stroke="#B38B59" strokeWidth="1" />
-              </svg>
             </div>
 
             {/* Diamond-shaped image container */}
             <div
               className="relative w-80 h-80 lg:w-[600px] lg:h-[600px] overflow-hidden"
               style={{
-                transform: "rotate(45deg) translateY(4rem) translateX(1rem)",
+                transform: "rotate(45deg) translateY(0rem) translateX(1rem)",
               }}
             >
               <img
                 src="https://i.pinimg.com/1200x/6d/19/ad/6d19ad50074f3eaf2887e16c0f53f86a.jpg"
                 alt="Wedding bouquet with white and pink flowers "
-                className="w-full h-full object-cover "
-                style={{ transform: "rotate(-45deg) scale(1.4)" }}
+                className="w-full h-full object-cover  "
+                style={{ transform: "rotate(-45deg)" }}
               />
             </div>
           </div>
