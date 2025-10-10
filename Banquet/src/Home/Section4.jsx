@@ -40,27 +40,7 @@ export default function RestaurantSection() {
             }}
           >
             {/* Content Card Overlay */}
-            <div
-              className={`absolute bottom-8 left-8 bg-white p-6 rounded-3xl max-w-sm shadow-lg transition-all duration-700 ease-out hover:shadow-xl ${
-                isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
-              }`}
-            >
-              {/* Category Label */}
-              <div className="text-[#B38B59] text-sm font-semibold tracking-widest uppercase mb-3 font-cormorant">
-                Restaurant
-              </div>
-
-              {/* Main Headline */}
-              <h2 className="text-2xl md:text-3xl font-bold text-black mb-4 font-cormorant leading-tight">
-                Serve a great food on your wedding.
-              </h2>
-
-              {/* Description Text */}
-              <p className="text-[#555555] text-sm leading-relaxed font-playfair">
-                Wedding agencies, photography and personal wedding pages can be built with the help of this responsive
-                Wedding Venues Website Template. Refreshing and uplifting color scheme featuring…
-              </p>
-            </div>
+            
           </div>
         </div>
       </div>

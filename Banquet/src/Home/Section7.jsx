@@ -41,10 +41,10 @@ export function ReviewSection() {
 
           {/* Right Column */}
           <div className="relative animate-fade-in-delay">
-            {/* Google Street View Iframe */}
+            {/* Google Maps Iframe - Using proper embed API */}
             <div className="relative aspect-[4/3] overflow-hidden shadow-lg rounded-3xl">
               <iframe
-                src="https://www.google.com/maps/place//@28.3912853,76.9663363,19z/data=!4m6!1m5!3m4!2zMjjCsDIzJzI4LjAiTiA3NsKwNTgnMDEuMSJF!8m2!3d28.391119!4d76.96698?hl=en&entry=ttu&g_ep=EgoyMDI1MDkwMy4wIKXMDSoASAFQAw%3D%3D"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3514.4334290342243!2d76.96440501508344!3d28.391119082510272!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjjCsDIzJzI4LjAiTiA3NsKwNTgnMDEuMSJF!5e0!3m2!1sen!2sin!4v1626927011695!5m2!1sen!2sin"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}
@@ -52,7 +52,7 @@ export function ReviewSection() {
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
                 className="w-full h-full"
-                title="Restaurant Interior - Google Street View"
+                title="Restaurant Location - Google Maps"
               />
             </div>
           </div>

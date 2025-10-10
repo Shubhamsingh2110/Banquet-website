@@ -1,4 +1,4 @@
-import { Facebook, Instagram, Twitter, Youtube, Bell, Phone, Mail, Menu, X } from "lucide-react"
+import { Instagram, Bell, Phone, Mail, Menu, X } from "lucide-react"
 import { useState } from "react"
 
 export default function NavigationHeader() {
@@ -12,12 +12,16 @@ export default function NavigationHeader() {
       <div className="max-w-7xl mx-auto flex items-center justify-between">
         {/* Left Section - Social Media */}
         <div className="hidden md:flex items-center gap-4">
-          <span className="text-xs font-medium tracking-widest text-gray-700 uppercase">Follow us on</span>
+          <span className="text-xs font-medium tracking-widest text-gray-700 uppercase">Follow us</span>
           <div className="flex items-center gap-3">
-            <Facebook size={18} className="text-black hover:text-gray-600 transition-colors cursor-pointer" />
-            <Instagram size={18} className="text-black hover:text-gray-600 transition-colors cursor-pointer" />
-            <Twitter size={18} className="text-black hover:text-gray-600 transition-colors cursor-pointer" />
-            <Youtube size={18} className="text-black hover:text-gray-600 transition-colors cursor-pointer" />
+            <a
+              href="https://www.instagram.com/_theroyalsapphire?igsh=Y3ZhaDh0aGptNmlw"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-black hover:text-gray-600 transition-colors"
+            >
+              <Instagram size={18} />
+            </a>
           </div>
         </div>
 
@@ -110,10 +114,14 @@ export default function NavigationHeader() {
               <div className="flex items-center gap-4">
                 <span className="text-xs font-medium tracking-widest text-gray-700 uppercase">Follow us</span>
                 <div className="flex items-center gap-3">
-                  <Facebook size={18} className="text-black hover:text-gray-600 transition-colors cursor-pointer" />
-                  <Instagram size={18} className="text-black hover:text-gray-600 transition-colors cursor-pointer" />
-                  <Twitter size={18} className="text-black hover:text-gray-600 transition-colors cursor-pointer" />
-                  <Youtube size={18} className="text-black hover:text-gray-600 transition-colors cursor-pointer" />
+                  <a
+                    href="https://www.instagram.com/_theroyalsapphire?igsh=Y3ZhaDh0aGptNmlw"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-black hover:text-gray-600 transition-colors"
+                  >
+                    <Instagram size={18} />
+                  </a>
                 </div>
               </div>
               <div className="flex items-center gap-4">

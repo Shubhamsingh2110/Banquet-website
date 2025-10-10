@@ -66,12 +66,12 @@ export default function HeroSection() {
 
           <h1 className="mb-4 font-cormorant text-6xl font-black text-white md:text-8xl">THE ROYAL SAPPHIRE</h1>
 
-          <p className="font-cormorant text-lg text-gray-200 md:text-3xl">
+          {/* <p className="font-cormorant text-lg text-gray-200 md:text-3xl">
             Choose your best marriage destination with us
-          </p>
+          </p> */}
         </div>
 
-        <div className="w-full max-w-6xl slide-up">
+        {/* <div className="w-full max-w-6xl slide-up">
           <div className="rounded-3xl bg-white/95 p-6 shadow-2xl backdrop-blur-sm md:p-8">
             <div className="flex flex-col gap-4 lg:flex-row lg:items-end lg:gap-6">
               <div className="flex-1 space-y-2">
@@ -160,7 +160,7 @@ export default function HeroSection() {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   )

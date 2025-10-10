@@ -152,25 +152,16 @@ export default function StartupSprintLanding() {
         {/* Social Icons */}
         <div className="flex items-center space-x-4 mt-8">
           <a
-            href="#"
+            href="https://www.instagram.com/_theroyalsapphire?igsh=Y3ZhaDh0aGptNmlw"
+            target="_blank"
+            rel="noopener noreferrer"
             className="w-10 h-10 bg-white/10 rounded-2xl flex items-center justify-center hover:bg-gray-900/80 transition-colors"
           >
-            <img src="https://i.postimg.cc/Qt4DwvDH/instagram-1.png" className="w-5 h-5" />
-          </a>
-          <a
-            href="#"
-            className="w-10 h-10 bg-white/10 rounded-2xl flex items-center justify-center hover:bg-gray-900/80 transition-colors"
-          >
-            <img src="https://i.postimg.cc/HLTCxTsr/twitter.png" className="w-5 h-5" />
-          </a>
-          <a
-            href="#"
-            className="w-10 h-10 bg-white/10 rounded-2xl flex items-center justify-center hover:bg-gray-900/80 transition-colors"
-          >
-            <img src="https://i.postimg.cc/wvv8XFNH/linkedin.png" className="w-5 h-5 " />
+            <img src="https://i.postimg.cc/Qt4DwvDH/instagram-1.png" className="w-5 h-5" alt="Instagram" />
           </a>
         </div>
       </div>
     </div>
   )
 }
+           
