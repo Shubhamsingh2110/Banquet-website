@@ -28,9 +28,7 @@ export function ReviewSection() {
               </h2>
 
               <p className="text-gray-600 text-lg leading-relaxed max-w-md font-playfair">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                ex ea commodo consequat.
+                Your feedback helps us create even more memorable moments for future guests. We'd be honored if you shared your experience at The Royal Sapphire with a review on Google.
               </p>
             </div>
 
