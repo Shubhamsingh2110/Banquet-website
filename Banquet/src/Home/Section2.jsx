@@ -51,20 +51,19 @@ export default function DreamWeddingSection() {
           {/* Right Column - Image with Diamond Frame */}
           <div className="relative flex justify-center items-center">
             {/* Background SVG Diamonds */}
-            <div className="absolute inset-0 flex justify-center items-center animate-fade-in">
-            </div>
+            <div className="absolute inset-0 flex justify-center items-center animate-fade-in"></div>
 
             {/* Diamond-shaped image container */}
             <div
-              className="relative w-80 h-80 lg:w-[600px] lg:h-[600px] overflow-hidden"
+              className="relative w-80 h-80 lg:w-[600px] lg:h-[600px] overflow-hidden translate-x-0 sm:translate-x-0 md:translate-x-0 lg:translate-x-[1rem] /* only large screens use your original offset */"
               style={{
-                transform: "rotate(45deg) translateY(0rem) translateX(1rem)",
+                transform: "rotate(45deg)",
               }}
             >
               <img
                 src="https://i.pinimg.com/736x/30/65/2c/30652cb04d82ac83a0c8d66fd4376163.jpg"
-                alt="Wedding bouquet with white and pink flowers "
-                className="w-full h-full object-cover  "
+                alt="Wedding bouquet with white and pink flowers"
+                className="w-full h-full object-cover"
                 style={{ transform: "rotate(-45deg)" }}
               />
             </div>

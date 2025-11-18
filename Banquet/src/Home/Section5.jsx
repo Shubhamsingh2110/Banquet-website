@@ -13,11 +13,10 @@ export default function WeddingServicesPage() {
           <section className="grid lg:grid-cols-2 gap-12 items-center mb-32">
             <div className="space-y-6">
               <h2 className="font-cormorant text-4xl md:text-6xl text-[#B38B59] leading-tight">
-                Plan your Wedding party with us.
+                Celebrate Your Special Moments With Us
               </h2>
               <p className="text-gray-700 text-lg leading-relaxed max-w-md font-playfair">
-                Wedding agencies, photography and personal wedding pages can be built with the help of this responsive
-                Wedding Venues Website Template. Refreshing and uplifting color scheme featuring Tiffany blue combined.
+                Experience elegance and comfort at our modern banquet hall—designed to make your celebrations truly unforgettable. Our spacious venue, customizable décor, and high-quality facilities make it perfect for weddings, engagements, parties, and corporate functions. With dedicated support and seamless event coordination, we ensure your special day is everything you envision.
               </p>
             </div>
 
@@ -36,11 +35,10 @@ export default function WeddingServicesPage() {
           <section className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="lg:order-2 space-y-6">
               <h2 className="font-cormorant font-medium text-4xl md:text-5xl text-[#B38B59] leading-tight">
-                A wedding destination of your dreams
+                A Perfect Venue for Every Occasion
               </h2>
               <p className="text-gray-700 text-lg leading-relaxed max-w-md font-playfair">
-                Wedding agencies, photography and personal wedding pages can be built with the help of this responsive
-                Wedding Venues Website Template. Refreshing and uplifting color scheme featuring Tiffany blue combined.
+                Whether you're planning a birthday celebration or business event our banquet hall offers the perfect environment. With a refreshing and premium color palette, elegant interiors, and flexible seating arrangements, we bring your event to life with style and sophistication.
               </p>
               <button className="inline-flex font-cormorant items-center justify-center  bg-[#B38B59] text-white px-8 py-3 text-lg font-normal tracking-wide transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-amber-700 disabled:pointer-events-none rounded-full ">
                 PLAN WITH US
@@ -60,7 +58,7 @@ export default function WeddingServicesPage() {
                 </div>
                 <div className="w-32 h-32 bg-gradient-to-br from-amber-200 to-orange-200 rounded-3xl">
                   <div className="w-32 h-52 bg-gradient-to-br from-amber-900 to-orange-200 rounded-3xl translate-x-36">
-                </div>
+                  </div>
                 </div>
               </div>
 

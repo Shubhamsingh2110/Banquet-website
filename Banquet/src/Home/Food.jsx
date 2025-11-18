@@ -70,7 +70,7 @@ export function FeaturedMeals() {
             </p>
             
             {/* Action Buttons */}
-            <div className="flex flex-col sm:flex-row gap-4">
+            <div className="flex items-center justify-center">
               <a 
                 href="https://drive.google.com/drive/folders/1hKZObkTgwO2DMkghdQTIHvfgUJhYNevO"
                 target="_blank" 
@@ -81,12 +81,12 @@ export function FeaturedMeals() {
                 <span>View Online Menu</span>
               </a>
               
-              <button 
+              {/* <button 
                 className="flex items-center justify-center gap-2 bg-transparent text-[#B38B59] border border-[#B38B59] py-3 px-6 rounded-full hover:bg-[#B38B59]/5 transition-colors"
               >
                 <Download size={18} />
                 <span>Download PDF</span>
-              </button>
+              </button> */}
             </div>
             
             {/* Additional Information */}
