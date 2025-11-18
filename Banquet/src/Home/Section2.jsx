@@ -14,16 +14,18 @@ export default function DreamWeddingSection() {
                 className="font-cormorant text-4xl lg:text-5xl xl:text-6xl font-semibold leading-tight"
                 style={{ color: "#B38B59" }}
               >
-                A wedding destination of your dreams
+                {/* A wedding destination of your dreams */}
+                A Perfect Banquet Venue for Every Celebration
               </h1>
               <p
                 className="font-cormorant text-gray-600 text-base lg:text-2xl leading-relaxed max-w-md"
                 style={{ color: "#555555" }}
               >
-                Wedding agencies, photography and personal wedding pages can be built with the help of this responsive
+                {/* Wedding agencies, photography and personal wedding pages can be built with the help of this responsive
                 Wedding Venues Website Template. Refreshing and uplifting color scheme featuring Tiffany blue combined
                 with pure white is ideal for wedding-related sites. Thanks to transparent elements, ghost buttons and
-                neat typography the theme
+                neat typography the theme */}
+                Host unforgettable events with our elegant and fully customizable banquet hall services. Whether you're planning a wedding, engagement, birthday party, corporate event, or any special occasion, this responsive Banquet Venue Website Template helps you showcase your space beautifully. The sophisticated color palette, featuring warm gold accents paired with crisp white, creates a luxurious and welcoming atmosphere. With modern transparent elements, refined buttons, and clean typography, the design ensures your banquet hall stands out with style and professionalism.
               </p>
             </div>
 
@@ -34,7 +36,7 @@ export default function DreamWeddingSection() {
                 onMouseEnter={() => setIsHovered(true)}
                 onMouseLeave={() => setIsHovered(false)}
               >
-                PLAN WITH US
+                {/* PLAN WITH US */}
                 <div
                   className="absolute bottom-0 left-0 h-0.5 bg-gradient-to-r transition-all duration-300 ease-out"
                   style={{
