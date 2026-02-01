@@ -40,9 +40,9 @@ export default function WeddingServicesPage() {
               <p className="text-gray-700 text-lg leading-relaxed max-w-md font-playfair">
                 Whether you're planning a birthday celebration or business event our banquet hall offers the perfect environment. With a refreshing and premium color palette, elegant interiors, and flexible seating arrangements, we bring your event to life with style and sophistication.
               </p>
-              <button className="inline-flex font-cormorant items-center justify-center  bg-[#B38B59] text-white px-8 py-3 text-lg font-normal tracking-wide transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-amber-700 disabled:pointer-events-none rounded-full ">
+              {/* <button className="inline-flex font-cormorant items-center justify-center  bg-[#B38B59] text-white px-8 py-3 text-lg font-normal tracking-wide transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-amber-700 disabled:pointer-events-none rounded-full ">
                 PLAN WITH US
-              </button>
+              </button> */}
             </div>
 
             <div className="lg:order-1 grid grid-cols-2 gap-4">

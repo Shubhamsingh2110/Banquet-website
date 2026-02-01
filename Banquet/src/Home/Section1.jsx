@@ -1,10 +1,12 @@
 import { useState, useEffect } from "react"
 import { Calendar, Users, MapPin, ChevronDown } from "lucide-react"
 
-const backgroundImages = ["https://i.postimg.cc/9QN8MnS9/image1.jpg",
-                          "https://i.postimg.cc/8kBZW59N/image2.jpg",
-                          "https://i.postimg.cc/Gm9KZj2m/image3.jpg",
-                          "https://i.postimg.cc/x80ygvhY/image4.jpg"]
+const backgroundImages = [
+  "https://res.cloudinary.com/dmo8bqzrx/image/upload/v1769967084/238A1247_z4braw.jpg",
+  "https://res.cloudinary.com/dmo8bqzrx/image/upload/v1769967082/238A1259_y3azz1.jpg",
+  "https://res.cloudinary.com/dmo8bqzrx/image/upload/v1769967072/238A1268_oerhhb.jpg",
+  "https://res.cloudinary.com/dmo8bqzrx/image/upload/v1769967068/238A1246_kigd5h.jpg"
+]
 
 const destinations = ["Grand Plaza, Zirakpur", "Maison Palace, Mohali", "Orient Destination, Panchkula"]
 

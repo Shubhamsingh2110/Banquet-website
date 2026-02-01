@@ -36,30 +36,7 @@ export default function Footer() {
 
         {/* Navigation Grid */}
         <div className="flex justify-center mb-8">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl w-full">
-            
-            {/* Quick Links */}
-            <div className="text-center">
-              <h3 className="text-yellow-500 font-semibold mb-4 text-base tracking-wide">QUICK LINKS</h3>
-              <div className="space-y-2">
-                <a href="#" className="block text-gray-300 hover:text-yellow-400 transition-colors duration-200">Home</a>
-                <a href="#" className="block text-gray-300 hover:text-yellow-400 transition-colors duration-200">Packages</a>
-                <a href="#" className="block text-gray-300 hover:text-yellow-400 transition-colors duration-200">Contact</a>
-              </div>
-            </div>
-
-            {/* Explore */}
-            <div className="text-center">
-              <h3 className="text-yellow-500 font-semibold mb-4 text-base tracking-wide">EXPLORE</h3>
-              <div className="space-y-2">
-                <a href="#" className="block text-gray-300 hover:text-yellow-400 transition-colors duration-200">Location</a>
-                <a href="#" className="block text-gray-300 hover:text-yellow-400 transition-colors duration-200">Sustainability</a>
-                <a href="#" className="block text-gray-300 hover:text-yellow-400 transition-colors duration-200">Gallery</a>
-                <a href="#" className="block text-gray-300 hover:text-yellow-400 transition-colors duration-200">Our Team</a>
-                <a href="#" className="block text-gray-300 hover:text-yellow-400 transition-colors duration-200">Blog</a>
-              </div>
-            </div>
-
+          <div className="max-w-2xl w-full">
             {/* Get In Touch */}
             <div className="text-center">
               <h3 className="text-yellow-500 font-semibold mb-4 text-base tracking-wide">GET IN TOUCH</h3>
@@ -112,7 +89,6 @@ export default function Footer() {
 
               </div>
             </div>
-
           </div>
         </div>
 

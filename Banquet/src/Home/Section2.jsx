@@ -61,8 +61,8 @@ export default function DreamWeddingSection() {
               }}
             >
               <img
-                src="https://i.pinimg.com/736x/30/65/2c/30652cb04d82ac83a0c8d66fd4376163.jpg"
-                alt="Wedding bouquet with white and pink flowers"
+                src="https://res.cloudinary.com/dmo8bqzrx/image/upload/v1769967082/238A1255_rs4a2i.jpg"
+                alt="Elegant banquet hall interior"
                 className="w-full h-full object-cover"
                 style={{ transform: "rotate(-45deg)" }}
               />

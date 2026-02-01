@@ -25,9 +25,9 @@ export default function RestaurantSection() {
     <section ref={sectionRef} className="w-full bg-white py-16 px-4">
       <div className="max-w-7xl mx-auto">
         {/* Main Heading */}
-        <h1 className="text-center text-6xl md:text-7xl lg:text-8xl font-medium text-[#B38B59] font-playfair mb-16">
+        {/* <h1 className="text-center text-6xl md:text-7xl lg:text-8xl font-medium text-[#B38B59] font-playfair mb-16">
           Restaurant
-        </h1>
+        </h1> */}
 
         {/* Image Container with Decorative Elements */}
         <div className="relative group">
@@ -36,7 +36,7 @@ export default function RestaurantSection() {
           <div
             className="relative h-[500px] md:h-[600px] lg:h-[600px] bg-cover bg-center bg-no-repeat overflow-hidden rounded-3xl "
             style={{
-              backgroundImage: `url('https://i.postimg.cc/Hkv5VWYg/Whats-App-Image-2025-09-03-at-11-41-12-PM-1.jpg')`,
+              backgroundImage: `url('https://res.cloudinary.com/dmo8bqzrx/image/upload/v1769965840/238A1258_m3xjw2.jpg')`,
             }}
           >
             {/* Content Card Overlay */}
