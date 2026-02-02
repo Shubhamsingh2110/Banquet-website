@@ -50,25 +50,34 @@ export default function WeddingServicesPage() {
                 <div className="relative">
                   <div className="relative rounded-3xl shadow-2xl">
                     <img
-                      src="https://i.pinimg.com/736x/ba/44/64/ba4464e07a8e48445351b254f94d75db.jpg"
-                      alt="Gourmet plated dish"
+                      src="https://res.cloudinary.com/dmo8bqzrx/image/upload/v1769967082/238A1255_rs4a2i.jpg"
+                      alt="Elegant banquet hall setup"
                       className="w-full h-48 object-cover rounded-3xl"
                     />
                   </div>
                 </div>
-                <div className="w-32 h-32 bg-gradient-to-br from-amber-200 to-orange-200 rounded-3xl">
-                  <div className="w-32 h-52 bg-gradient-to-br from-amber-900 to-orange-200 rounded-3xl translate-x-36">
-                  </div>
+                <div className="relative rounded-3xl shadow-2xl overflow-hidden">
+                  <img
+                    src="https://res.cloudinary.com/dmo8bqzrx/image/upload/v1769967084/238A1247_z4braw.jpg"
+                    alt="Beautiful venue decoration"
+                    className="w-full h-52 object-cover rounded-3xl"
+                  />
                 </div>
               </div>
 
               <div className="space-y-4 pt-8">
-                <div className="w-full h-24 bg-gradient-to-br from-orange-300 to-amber-300 rounded-3xl"></div>
+                <div className="relative rounded-3xl shadow-2xl overflow-hidden">
+                  <img
+                    src="https://res.cloudinary.com/dmo8bqzrx/image/upload/v1769967082/238A1259_y3azz1.jpg"
+                    alt="Royal banquet setting"
+                    className="w-full h-24 object-cover rounded-3xl"
+                  />
+                </div>
                 <div className="relative">
-                  <div className="relative  rounded-3xl shadow-2xl">
+                  <div className="relative rounded-3xl shadow-2xl">
                     <img
-                      src="https://i.pinimg.com/736x/bb/b8/14/bbb814fad005988802d5c73ee7634a89.jpg"
-                      alt="Elegant plated salad"
+                      src="https://res.cloudinary.com/dmo8bqzrx/image/upload/v1769967072/238A1268_oerhhb.jpg"
+                      alt="Premium event space"
                       className="w-full h-40 object-cover rounded-3xl"
                     />
                   </div>
